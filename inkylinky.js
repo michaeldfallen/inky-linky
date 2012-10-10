@@ -14,7 +14,7 @@ function loadJQuery(callback) {
             var jQueryLoadAttempts = 0;
             var script= document.createElement('script');
             script.type= 'text/javascript';
-            script.src= 'http://localhost/inkylinky/jquery.js';
+            script.src= 'http://rooreynolds.github.com/inkylinky/jquery.js';
             head.appendChild(script);
             checkjQueryLoaded = setInterval(function() {             
                 if(typeof jQuery != "undefined") {
